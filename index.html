@@ -5,7 +5,10 @@
 	<link rel="stylesheet" href="css/import.css">
 <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Germania+One&family=League+Gothic:wdth@92&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/030d8c4c01.js" crossorigin="anonymous"></script>
-
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon//favicon-16x16.png">
+<link rel="manifest" href="assets/favicon/site.webmanifest">
 	<title>Surreal Eden - Rare NFT Artworks</title>
 
 </head>
@@ -14,7 +17,7 @@
 
 <div class="header">
 		<div class="logo">
-		<img src="logo_surreal.png" alt="surreal eden logo">
+				<a href="index.html"><img src="logo_surreal.png" alt="surreal eden logo"></a>
 	</div>
 
 </div>
@@ -34,13 +37,16 @@
 			<div id="two">
 		<img src="assets/manf_faces_weeknd_3.png" alt="Surreal">
 </div>
-<h2>"The Many Faces of Weeknd"</h2>
-<p> Creator @Surreal Eden <i class="fas fa-check-circle"></i></p>
-<article class="description">Winning bidder will have limited edition "First NFT" badge displayed on NFT page
-	and will be entitled to receive 100,000 in $SURREAL tokens.
-</article>
+<span id="button"><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/106160680501985574496714616976115345185559207128443910554097689277225318219777/"><button class="button-50" role="button">Acquire this piece</button></a></span>
+<div class="nft_content">
 
-<ul>
+<h2>"The Many Faces of Weeknd"</h2>
+	<!-- <p> Creator @Surreal Eden <i class="fas fa-check-circle"></i></p> -->
+<article class="description"><strong>Winning buyer will have limited edition "First NFT" badge displayed on NFT page
+	and will be entitled to receive 100,000 in $SURREAL tokens upon launch</strong>
+</article>
+</div>
+
 
 					<!-- Display the countdown timer in an element -->
 				<!-- 			<p id="demo"></p> -->
@@ -58,8 +64,9 @@
 			<p class="gothic">Elevating The NFT <br>Art Experience.</p><br>
        <div class="left_card">
       <div id="card_one">
-				<p class="description">Launching with 5 limited surrealist pieces of music legends.  The works that will be
-					the first NFTs launched on the platform. </p>
+				<p class="description"><strong>Launching with 3 limited surrealist pieces of music legends.  The works will be
+					the first NFTs launched on the platform. Investing buyers will recieve perks and priveledges including $surreal airdrops
+				and sitewide exposure of their NFTs upon launch. Available now through OpenSea.</strong></p>
 
        </div>
 			 <div id="card_two">
@@ -67,9 +74,29 @@
  					<li><a href="https://twitter.com/edensurreal"><i class="fa-brands fa-twitter fa-4x"></i></a></li>
  						<li><a href="https://www.instagram.com/surrealeden/"><i class="fa-brands fa-instagram fa-4x"></i></a></li>
 
+
 			 </div>
 			 <div id="card_three">
+				  <h3>Countdown to Launch</h3>
+				 <div id="clockdiv">
 
+		   <div>
+		     <span class="days"></span>
+		     <div class="smalltext">Days</div>
+		   </div>
+		   <div>
+		     <span class="hours"></span>
+		     <div class="smalltext">Hours</div>
+		   </div>
+		   <div>
+		     <span class="minutes"></span>
+		     <div class="smalltext">Minutes</div>
+		   </div>
+		   <div>
+		     <span class="seconds"></span>
+		     <div class="smalltext">Seconds</div>
+		   </div>
+		 </div>
 
 			</div>
 
@@ -80,8 +107,8 @@
 	<ul class="footer">
 		<!-- Footer -->
 		<li>Copyright &copy; SurrealEden.com</li>
-		<li>Terms of Use</li>
-			<li>Privacy Policy</li>
+		<li><a href="tos.html">Terms of Use</a></li>
+			<li><a href="privacy-policy.html">Privacy Policy</a></li>
 		<li><i class="fa-brands fa-discord"></i></li>
 			<li><i class="fa-brands fa-twitter"></i></li>
 				<li><i class="fa-brands fa-instagram"></i></li>
@@ -91,4 +118,5 @@
 
 	</div>
 </body>
+<script type="text/javascript" src="js/countdown.js"></script>
 </html>

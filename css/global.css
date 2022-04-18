@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bangers&family=Germania+One&family=League+Gothic:wdth@92&display=swap');
+@media screen and (max-width:600px) {
+  
+}
+
 
 img {
 max-width: 90%;
