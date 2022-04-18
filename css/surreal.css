@@ -1,0 +1,208 @@
+
+.logo {
+align-items: baseline;
+margin: 2%;
+padding: 1%;
+
+}
+a:link {
+text-decoration: none;
+color: #000000;
+}
+
+a:active {
+color: #000000;
+text-decoration: none;
+}
+
+a:visited {
+color: #000000;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.description {
+font-family: 'Amatic SC', cursive;
+font-size: 1.5em;
+}
+
+.gothic {
+font-family: 'League Gothic', sans-serif;
+font-size: 50px;
+text-align: center;
+}
+
+.container {
+display: grid;
+justify-content: center;
+grid-template-columns: 25vw 25vw;
+grid-template-rows: auto;
+grid-template-areas:
+"hl hr"
+"sd main"
+"ft ft";
+margin: 1%;
+}
+
+.nft_container {
+display: grid;
+grid-template-columns: 5vw 5vw;;
+grid-area: "one two";
+padding: 1%;
+}
+
+.nft_img {
+width: 40vh;
+height: 40vw;
+padding: 3%;
+}
+
+.header {
+grid-area: hl;
+}
+
+.header ul {
+display: flex;
+list-style: none;
+flex-direction: row;
+padding: 1%;
+float: right;
+margin-bottom: 1%;
+font-family: 'League Gothic', sans-serif;
+font-size: 1.8em;
+}
+
+.nav_container {
+padding: 1%;
+grid-area: hr;
+}
+
+.nav_container ul {
+list-style: none;
+display: flex;
+flex-direction: row;
+font-family: 'League Gothic', sans-serif;
+font-size: 1.8em;
+}
+
+.nav_container li {
+padding: 1%;
+}
+
+.left_sidebar {
+border: 1px 1px 1px solid #dddddd;
+grid-area: sd;
+padding: 1%;
+box-shadow: 8px 8px 8px 2px #999999;
+margin-right: 10%;
+}
+
+
+.left_sidebar li {
+padding: 1%;
+}
+
+.left_sidebar p {
+padding: 3%;
+justify-content: center;
+}
+
+.left_card{
+grid-template-columns: 8vw;
+grid-template-rows: auto;
+grid-template-areas: "cn"
+                     "bc"
+                     "fc";
+}
+
+.input_box {
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+.content {
+display: grid;
+grid-template-columns: 30vw;
+grid-template-rows:  10vh 25vh;
+grid-template-areas: "title"
+                    "content";
+}
+
+#box_title {
+grid-area: title;
+text-align: center;
+font-size: 1.5em;
+}
+
+#box_content {
+grid-area: content;
+justify-self: center | stretch;
+}
+
+#card_one {
+grid-area: cn;
+text-align: center;
+}
+
+#card_two {
+grid-area: bc;
+justify-content: center;
+display: flex;
+flex-direction: row;
+list-style: none;
+}
+
+#card_two a {
+text-decoration: none;
+color: inherit;
+}
+
+#one{
+grid-area: one;
+border: 1px solid black;
+}
+
+#two {
+grid-area: two;
+padding: 2%;
+margin: 1%;
+
+}
+
+.social_b {
+background-color: black;
+width: 10vw;
+height: 6vh;
+border-radius: 15%;
+}
+
+.main_right {
+grid-area: main;
+border: 1px 1px solid #dddddd;
+box-shadow: 8px 8px 16px 2px #999999;
+margin-left: 10%;
+}
+
+.distance {
+padding: 5%;
+}
+
+.footer {
+grid-area: ft;
+margin-top: 3%;
+}
+
+.footer ul {
+display: flex;
+flex-direction: row;
+list-style: none;
+}
+
+.footer li {
+padding: 1%;
+}
